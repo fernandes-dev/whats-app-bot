@@ -17,7 +17,7 @@ async function startWhatsBOT() {
     await (0, _handleMessages.handleMessages)(whatsappInstance);
   } catch (error) {
     // eslint-disable-next-line no-console
-    console.log("Erro ao executar whatsapp", error);
+    console.log("Erro ao executar whatsapp: ", error);
   }
 }
 
